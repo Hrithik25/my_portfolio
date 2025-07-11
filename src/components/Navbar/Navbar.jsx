@@ -59,8 +59,8 @@ const Navbar = () => {
           {menuItems.map((item) => (
             <li
               key={item.id}
-              className={`cursor-pointer hover:text-[#45ec56] ${
-                activeSection === item.id ? "text-[#45ec56]" : ""
+              className={`cursor-pointer hover:text-[#8245ec] ${
+                activeSection === item.id ? "text-[#8245ec]" : ""
               }`}  // Green Color: #45ec56  Purple color: #8245ec
             >
               <button onClick={() => handleMenuItemClick(item.id)}>
